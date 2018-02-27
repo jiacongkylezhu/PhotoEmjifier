@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PhotoEmojifier</string>
+    <string name="emojify">Emojify</string>
+    <string name="file_error">Error finding image</string>
+    <string name="saved_message">Image Saved at %1$s</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="no_faces_message">No Faces Detected</string>
+    <string name="no_emoji">No Emoji Expression Found</string>
+</resources>

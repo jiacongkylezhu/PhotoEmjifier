@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_standard_margin">16dp</dimen>
+    <dimen name="btn_size">56dp</dimen>
+    <dimen name="view_margin">16dp</dimen>
+    <dimen name="fab_margins">45dp</dimen>
+</resources>
