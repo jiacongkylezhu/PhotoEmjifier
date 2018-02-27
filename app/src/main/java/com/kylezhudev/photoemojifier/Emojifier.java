@@ -97,8 +97,8 @@ public class Emojifier {
 
         emojiBitmap = Bitmap.createScaledBitmap(emojiBitmap, newEmojiWidth, newEmojiHeight, false);
 
-        float emojiPositionX = (face.getPosition().x + face.getWidth()) / 2 - emojiBitmap.getWidth() / 5 ;
-        float emojiPositionY = (face.getPosition().y + face.getHeight()) /2 - emojiBitmap.getHeight() / 3;
+        float emojiPositionX = (face.getPosition().x + face.getWidth()) / 2 - emojiBitmap.getWidth() / 2 ;
+        float emojiPositionY = (face.getPosition().y + face.getHeight()) /2 - emojiBitmap.getHeight() / 5;
         Canvas canvas = new Canvas(overlaidBitmap);
         canvas.drawBitmap(backgroundBitmap, 0, 0, null);
         canvas.drawBitmap(emojiBitmap, emojiPositionX, emojiPositionY, null);
